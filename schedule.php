@@ -33,6 +33,14 @@
     <style>
       th{text-align:center;}
       td{text-align:center;}
+      .plan{text-align: center;}
+      .rotate-plan-img {
+	    -webkit-transform: rotate(90deg);
+	    -moz-transform: rotate(90deg);
+	    -ms-transform: rotate(90deg);
+	    -o-transform: rotate(90deg);
+	    transform: rotate(90deg);
+      }
     </style>
   </head>
   <body>
@@ -244,6 +252,11 @@
 					</table>
 				</div>
 			</div>
+			<div class = "row">
+				<div class = "well plan">
+					<img class = "img-responsive plan-img" src = "http://placehold.it/600x400" />
+				</div>
+			</div>
 		</div>
 		<footer>
 			<div class="container">
@@ -265,5 +278,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/career/2015/js/bootstrap.min.js"></script>
     <script src="/career/2015/js/scripts.js"></script>
+    <script type="text/javascript">
+
+    	window.onload = function () {
+    		//images rotate script 
+	    	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			 //check mobile.
+			 	$('.plan').append('<img class = "plan-img-mobile" src = "http://placehold.it/600x400" />');
+			 	$('.plan-img-mobile').addClass('rotate-plan-img');
+			 	$('.plan-img-mobile').css("width","400px");
+			 	$('.plan-img').css("display","none");		
+			 }
+    	}
+    </script>
    </body>
 </html>
