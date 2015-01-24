@@ -53,9 +53,8 @@
         <ul class="clearfix">
           <li><a href="index.php">หน้าหลัก</a></li>
           <li><a href="companies.php" class="active">บริษัทที่เข้าร่วมงาน</a></li>
-          <!--<li><a href="schedule.php">กำหนดการ</a></li>
-          <li><a href="plan.php">แผนผัง</a></li>
-          --><li><a href="map.php">การเดินทาง</a></li>
+          <!--<li><a href="schedule.php">กำหนดการ</a></li>-->
+					<li><a href="map.php">การเดินทาง</a></li>
           <li><a href="aboutus.php" class="last">เกี่ยวกับเรา</a></li>
         </ul>
       </nav>
