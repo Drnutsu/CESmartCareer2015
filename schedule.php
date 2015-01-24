@@ -251,7 +251,7 @@
 					<div class="col-md-4">
 						<h2>KMITL
 						<br />Computer Engineering
-						<br />CE Smart Career 2014</h2>
+						<br />CE Smart Career 2015</h2>
 					</div>
 					<div class="col-md-offset-5 col-md-3">
 						<h3>Creator: Waitwing & Chanon</h3>

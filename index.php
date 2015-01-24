@@ -206,7 +206,7 @@
 					<div class="col-md-4">
 						<h2>KMITL
 						<br />Computer Engineering
-						<br />CE Smart Career 2014</h2>
+						<br />CE Smart Career 2015</h2>
 					</div>
 					<div class="col-md-offset-5 col-md-3">
 						<h3>Creator: Waitwing & Chanon</h3>
@@ -235,7 +235,10 @@
 					for(var i=0;i<companyList.length;i++){
 						var companyName = companyList[i];
 						var html = '<div class="box" style="float:left;visibility:hidden;"><a href="companies.php#' + companyName + '">';
-						html += '<img width="' + columnWidth + '" src="/career/2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
+						if(companyName==="ITInnovation")
+							html += '<img width="' + (columnWidth*2) + '" src="/career/2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
+						else
+							html += '<img width="' + columnWidth + '" src="/career/2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
 						var item =  $(html);
 						$container.append(item).isotope('appended', item);
 					}
