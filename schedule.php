@@ -33,13 +33,17 @@
     <style>
       th{text-align:center;}
       td{text-align:center;}
-      .plan{text-align: center;}
-      .rotate-plan-img {
-	    -webkit-transform: rotate(90deg);
-	    -moz-transform: rotate(90deg);
-	    -ms-transform: rotate(90deg);
-	    -o-transform: rotate(90deg);
-	    transform: rotate(90deg);
+      .plan{
+      	text-align: center;
+		margin-bottom: 20px;
+      }
+      .line-break{
+      	border-style: dashed;
+      	border-color: #63C6AE;
+      	border-width: 3px;
+
+      	margin-top:10px;
+      	margin-bottom: 10px;
       }
     </style>
   </head>
@@ -63,6 +67,7 @@
 			</div>
 		</header>
 		<div class="container" style="margin-top:2%;">
+			<h2 class = "text-center">กำหนดการบริษัทที่เข้าร่วมการบรรยาย</h2>
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
 					<table class="table table-condensed">
@@ -252,9 +257,11 @@
 					</table>
 				</div>
 			</div>
+			<div class = "line-break" ></div>
 			<div class = "row">
-				<div class = "well plan">
-					<img class = "img-responsive plan-img" src = "http://placehold.it/600x400" />
+				<h1 class="text-center" > แผนผัง </h1>
+				<div class = "plan">
+					<img class = "img-responsive plan-img img-thumbnail" src = "http://placehold.it/600x400" />
 				</div>
 			</div>
 		</div>
@@ -282,14 +289,11 @@
 
     	window.onload = function () {
     		//images rotate script 
-	    	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	    	if(  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			 //check mobile.
-			 	$('.plan').append('<img class = "plan-img-mobile" src = "http://placehold.it/600x400" />');
-			 	$('.plan-img-mobile').addClass('rotate-plan-img');
-			 	$('.plan-img-mobile').css("width","400px");
-			 	$('.plan-img').css("display","none");		
-			 }
+			 	$('.plan-img').attr("src","http://placehold.it/400x600"); // << Change to vertical image
     	}
+    }
     </script>
    </body>
 </html>
