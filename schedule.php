@@ -14,12 +14,12 @@
 		<meta property="og:description" content="CE Smart Career งาน Job Fair และสัมนาด้าน Computer และ IT ครั้งยิ่งใหญ่"/>
     <title>Schedule : CE Smart Career 2015</title>
     <!-- Bootstrap -->
-    <link rel="shortcut icon" href="/career/2015/img/prop/favicon.gif">
-		<link href="/career/2015/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="/career/2015/css/styles.css"/>
-    <link rel="stylesheet" href="/career/2015/css/queries.css"/>
-		<link rel="stylesheet" href="/career/2015/css/owl.carousel.css"/>
-    <link rel="stylesheet" href="/career/2015/css/owl.theme.css"/>
+    <link rel="shortcut icon" href="./2015/img/prop/favicon.gif">
+		<link href="./2015/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./2015/css/styles.css"/>
+    <link rel="stylesheet" href="./2015/css/queries.css"/>
+		<link rel="stylesheet" href="./2015/css/owl.carousel.css"/>
+    <link rel="stylesheet" href="./2015/css/owl.theme.css"/>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet" type="text/css"/>
@@ -275,8 +275,8 @@
 			</div>
 		</footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/career/2015/js/bootstrap.min.js"></script>
-    <script src="/career/2015/js/scripts.js"></script>
+    <script src="./2015/js/bootstrap.min.js"></script>
+    <script src="./2015/js/scripts.js"></script>
     <script type="text/javascript">
 
     	window.onload = function () {

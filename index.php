@@ -15,12 +15,12 @@
 		<meta name="author" content="Waitwing">
     <title>Home : CE Smart Career 2015</title>
     <!-- Bootstrap -->
-    <link rel="shortcut icon" href="/career/2015/img/prop/favicon.gif">
-    <link href="/career/2015/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/career/2015/css/styles.css" />
-    <link rel="stylesheet" href="/career/2015/css/queries.css" />
-		<link rel="stylesheet" href="/career/2015/css/owl.carousel.css"/>
-    <link rel="stylesheet" href="/career/2015/css/owl.theme.css"/>
+    <link rel="shortcut icon" href="./2015/img/prop/favicon.gif">
+    <link href="./2015/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./2015/css/styles.css" />
+    <link rel="stylesheet" href="./2015/css/queries.css" />
+		<link rel="stylesheet" href="./2015/css/owl.carousel.css"/>
+    <link rel="stylesheet" href="./2015/css/owl.theme.css"/>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet" type="text/css" />
@@ -217,10 +217,10 @@
 			</div>
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-		<script src="/career/2015/js/bootstrap.min.js"></script> 
-		<script src="/career/2015/js/scripts.js"></script> 
-		<script src="/career/2015/js/isotope.pkgd.min.js"></script> 
-		<script src="/career/2015/js/imagesloaded.pkgd.min.js"></script>
+		<script src="./2015/js/bootstrap.min.js"></script> 
+		<script src="./2015/js/scripts.js"></script> 
+		<script src="./2015/js/isotope.pkgd.min.js"></script> 
+		<script src="./2015/js/imagesloaded.pkgd.min.js"></script>
 		<script>
 				$.getJSON("/career/2015/companies/list.json").done(function(companyList){
 					var companyList = companyList["companyList"];
@@ -235,9 +235,9 @@
 						var companyName = companyList[i];
 						var html = '<div class="box" style="float:left;visibility:hidden;"><a href="companies.php#' + companyName + '">';
 						if(companyName==="ITInnovation")
-							html += '<img width="' + (columnWidth*2) + '" src="/career/2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
+							html += '<img width="' + (columnWidth*2) + '" src="./2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
 						else
-							html += '<img width="' + columnWidth + '" src="/career/2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
+							html += '<img width="' + columnWidth + '" src="./2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
 						var item =  $(html);
 						$container.append(item).isotope('appended', item);
 					}

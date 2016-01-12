@@ -9,17 +9,17 @@
 		<meta property="og:title" content="CE Smart Career, KMITL">
 		<meta property="og:type" content="website" />
 		<meta property="og:image" content="http://cesmartcamp/career/2015/img/prop/ss.jpg"/>
-		<meta property="og:url" content="http://cesmartcamp/career"/>
+		<meta property="og:url" content="http://cesmartcamp/`"/>
 		<meta property="og:site_name" content="CE Smart Career, KMITL"/>
 		<meta property="og:description" content="CE Smart Career งาน Job Fair และสัมนาด้าน Computer และ IT ครั้งยิ่งใหญ่"/>
     <title>Companies : CE Smart Career 2015</title>
     <!-- Bootstrap -->
-    <link rel="shortcut icon" href="/career/2015/img/prop/favicon.gif">
-    <link href="/career/2015/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="/career/2015/css/styles.css"/>
-    <link rel="stylesheet" href="/career/2015/css/queries.css"/>
-		<link rel="stylesheet" href="/career/2015/css/owl.carousel.css"/>
-    <link rel="stylesheet" href="/career/2015/css/owl.theme.css"/>
+    <link rel="shortcut icon" href="./2015/img/prop/favicon.gif">
+    <link href="./2015/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./2015/css/styles.css"/>
+    <link rel="stylesheet" href="./2015/css/queries.css"/>
+		<link rel="stylesheet" href="./2015/css/owl.carousel.css"/>
+    <link rel="stylesheet" href="./2015/css/owl.theme.css"/>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet" type="text/css"/>
@@ -34,7 +34,7 @@
      a:btn{color:#fff;}
 		 .box .thumbnail:hover{background-color:#63c6ae;}
 		 #backToTop {bottom:5px;right:20px;z-index:11;position:fixed;}
-			#backToTop span {width: 50px;height: 50px;display: block;background: #63c6ae url(/career/2015/img/prop/up-arrow.png) no-repeat center center;cursor: pointer;
+			#backToTop span {width: 50px;height: 50px;display: block;background: #63c6ae url(./2015/img/prop/up-arrow.png) no-repeat center center;cursor: pointer;
 			-webkit-border-radius: 15px;
 			-moz-border-radius: 15px;
 			border-radius: 15px;
@@ -74,7 +74,7 @@
 		<div id="companiesInfo">
 			<?php
 				error_reporting(E_ERROR);
-				$companies = json_decode (file_get_contents("./2015/companies/list.json"), false);
+				$companies = json_decode (file_get_contents("/career/2015/companies/list.json"), false);
 				$companies = $companies->{"companyList"};
 				for($i=0; $i<sizeof($companies); $i++) {
 						$companyName = $companies[$i];
@@ -113,10 +113,10 @@
 			</div>
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="/career/2015/js/scripts.js"></script> 
-		<script src="/career/2015/js/bootstrap.min.js"></script>
-		<script src="/career/2015/js/isotope.pkgd.min.js"></script> 
-		<script src="/career/2015/js/imagesloaded.pkgd.min.js"></script>
+		<script src="./2015/js/scripts.js"></script> 
+		<script src="./2015/js/bootstrap.min.js"></script>
+		<script src="./2015/js/isotope.pkgd.min.js"></script> 
+		<script src="./2015/js/imagesloaded.pkgd.min.js"></script>
 		<script>
 			$.getJSON("/career/2015/companies/list.json").done(function(companyList){
 				var companyList = companyList["companyList"];
@@ -132,9 +132,9 @@
 					var companyName = companyList[i];
 					var html = '<div class="box" style="float:left;visibility:hidden;"><a href="#' + companyName + '"><div class="thumbnail">';
 					if(companyName==="ITInnovation")
-						html += '<img width="' + columnWidth*3 + '" src="/career/2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></div></a></div>';
+						html += '<img width="' + columnWidth*3 + '" src="./2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></div></a></div>';
 					else
-						html += '<img width="' + columnWidth*1.5 + '" src="/career/2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></div></a></div>';
+						html += '<img width="' + columnWidth*1.5 + '" src="./2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></div></a></div>';
 					var item =  $(html);
 					$container.append(item).isotope('appended', item);
 				}
