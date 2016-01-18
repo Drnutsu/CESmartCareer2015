@@ -9,10 +9,6 @@
     	die('Not connected : ' . mysql_error());
 	}
 	$db = mysql_select_db("company", $connection);
-<<<<<<< HEAD
-=======
-
->>>>>>> e247596b0a51b0431e6cf7deb110db8e2597b053
 ?>
 
 <!DOCTYPE html>
