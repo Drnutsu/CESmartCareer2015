@@ -4,7 +4,7 @@
 		header('Location: admin.php');
 	}
 
-	require('connectDB.php');
+	//require('connectDB.php');
 	// if (!$connection) {
  //    	die('Not connected : ' . mysql_error());
 	// }
