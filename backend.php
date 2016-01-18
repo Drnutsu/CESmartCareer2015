@@ -51,15 +51,24 @@
 					</tr>
 					<?php 
 						while ($row = mysql_fetch_assoc($result)) {
+							if ($row['soft_delete'] == 1) {
+								continue;
+							}
 							echo "<tr>";
 							echo "<td>".$row['ID']."</td>";
      						echo "<td>".$row['name']."</td>";
      						echo "<td>".$row['officer']."</td>";
      						echo "<td>".$row['email']."</td>";
-     						echo "<td></td>";
+     						echo "<td>
+     							<div class='btn-group inline pull-left' data-toggle='buttons-checkbox'> 
+      								<a href='./addcompany.php' target='_blank' class='btn btn-warning center-block'>แก้ไข</a>
+      								<a href='./delete.php?id=".$row['ID']."' class='btn btn-danger center-block'>ลบ</a>
+    							</div> 
+    							</td>";
      						echo "</tr>";
 						}
 					?>
+
 					</table>
 				</div>
 			</div>
