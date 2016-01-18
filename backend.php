@@ -8,7 +8,19 @@
 	if (!$connection) {
     	die('Not connected : ' . mysql_error());
 	}
-	$db = mysql_select_db("company", $connection);
+	mysql_set_charset('utf8',$connection);
+	$db = mysql_select_db('cesc', $connection);
+	$result = mysql_query('SELECT * FROM `company`', $connection);
+	
+	if (!$result) {
+	    echo "DB Error, could not query the database\n";
+	    echo 'MySQL Error: ' . mysql_error();
+	    exit;
+	}
+
+// while ($row = mysql_fetch_assoc($result)) {
+//     echo $row['name'];
+// }
 ?>
 
 <!DOCTYPE html>

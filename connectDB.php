@@ -1,3 +1,3 @@
 <?php
-	$connection = mysql_connect("localhost", "jirasak_career", "CEc@reer2016");
+	$connection = mysql_connect('103.253.134.222', 'cesc', 'zjUuHcHSxzvp4WS8');
 ?>
