@@ -39,23 +39,27 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
+				<a href="./addcompany.php" target="_blank"><button type="button" class="btn btn-primary center-block">เพิ่มบริษัท</button></a>
 				<div class="table-responsive">
 					<table class="table table-hover">
-					  <tr>
-					    <td>Jill</td>
-					    <td>Smith</td> 
-					    <td>50</td>
-					  </tr>
-					  <tr>
-					    <td>Jill</td>
-					    <td>Smith</td> 
-					    <td>50</td>
-					  </tr>
-					  <tr>
-					    <td>Jill</td>
-					    <td>Smith</td> 
-					    <td>50</td>
-					  </tr>
+					<tr>
+						<th>ID</th>
+					    <th>ชื่อบริษัท</th>
+					    <th>ชื่อผู้ประสานงาน</th>
+					    <th>อีเมล์</th>
+					    <th>แก้ไข</th>
+					</tr>
+					<?php 
+						while ($row = mysql_fetch_assoc($result)) {
+							echo "<tr>";
+							echo "<td>".$row['ID']."</td>";
+     						echo "<td>".$row['name']."</td>";
+     						echo "<td>".$row['officer']."</td>";
+     						echo "<td>".$row['email']."</td>";
+     						echo "<td></td>";
+     						echo "</tr>";
+						}
+					?>
 					</table>
 				</div>
 			</div>
