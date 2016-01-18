@@ -5,11 +5,19 @@
 	}
 
 	require('connectDB.php');
-	if (!$connection) {
-    	die('Not connected : ' . mysql_error());
-	}
-	$db = mysql_select_db("company", $connection);
-
+	// if (!$connection) {
+ //    	die('Not connected : ' . mysql_error());
+	// }
+	// $db = mysql_select_db("company", $connection);
+$conn = new PDO('mysql:host=localhost;dbname=jirasak_camp8;charset=utf-8', 'jirasak_camp8', 'smartc@mp82015ce');
+				$conn->exec("set names utf8");
+			// Check connection
+				try {
+				//connect as appropriate as above
+					$result = $conn->query('SELECT * FROM cesc8_detail WHERE id = '.$id);
+				} catch(PDOException $ex) {
+					echo "An Error occured! ".$ex->getMessage(); //user friendly message
+				}
 ?>
 
 <!DOCTYPE html>
