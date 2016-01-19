@@ -74,11 +74,11 @@
 		<div id="companiesInfo">
 			<?php
 				error_reporting(E_ERROR);
-				$companies = json_decode (file_get_contents("/career/2015/companies/list.json"), false);
+				$companies = json_decode (file_get_contents("./2016/lists.json"), false);
 				$companies = $companies->{"companyList"};
 				for($i=0; $i<sizeof($companies); $i++) {
 						$companyName = $companies[$i];
-						$companyPath = './2015/companies/'. $companyName;
+						$companyPath = './2016/'. $companyName;
 						$companyLogoURL = '"'.$companyPath.'/logo_full.jpg"';
 						$companyDescription = file_get_contents($companyPath.'/description.html');
 						$companyDescription =  $companyDescription==""?"<p><br/>ยังไม่มีข้อมูล</p>":$companyDescription;
@@ -118,7 +118,7 @@
 		<script src="./2015/js/isotope.pkgd.min.js"></script> 
 		<script src="./2015/js/imagesloaded.pkgd.min.js"></script>
 		<script>
-			$.getJSON("/career/2015/companies/list.json").done(function(companyList){
+			$.getJSON("./2016/lists.json").done(function(companyList){
 				var companyList = companyList["companyList"];
 				var columnWidth = $("#logoContainer").width()/18;
 				if(columnWidth<20) { collumnWidth = $("#logoContainer").width()};

@@ -60,7 +60,7 @@
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3">
 								<div class="hero-title">CE Smart Career<br/>The biggest IT job fair and semina</div>
-								<p class="hero-content">วันจันทร์และอังคารที่ 2 - 3 กุมภาพันธ์ 2558<br/>เวลา 9:00 - 16:30 น.</p>
+								<p class="hero-content">วันจันทร์และอังคารที่ 26-27 มกราคม 2559<br/>เวลา 9:00 - 16:30 น.</p>
 							</div>
 						</div>
 					</div>
@@ -99,8 +99,9 @@
 					<div class="col-md-6" style="background-color:#242a2c;color:white;min-height:490px;">
 						<h3 style="color:white;">วันดำเนินโครงการ</h3>
 						<ul>
-							<li>วันจันทร์และอังคารที่ 2– 3 กุมภาพันธ์ 2558</li>
+							<li>วันจันทร์และอังคารที่ 26-27 มกราคม 2559</li>
 							<li>เวลา 9.00 – 16.30 น.</li>
+							<li> ณ อาคารปฏิบัติการวิศวกรรมศาสตร์2 (ECC) 5th Floor</li>
 						</ul>
 						* ตารางสัมนาและแผนผังบู๊ตบริษัทจะมีการแจ้งให้ทราบในภายหลัง
 						<h3 style="color:white;margin-top:-10px;">เอกสารที่ควรเตรียมมาด้วย</h3>
@@ -222,7 +223,7 @@
 		<script src="./2015/js/isotope.pkgd.min.js"></script> 
 		<script src="./2015/js/imagesloaded.pkgd.min.js"></script>
 		<script>
-				$.getJSON("/career/2015/companies/list.json").done(function(companyList){
+				$.getJSON("./2016/lists.json").done(function(companyList){
 					var companyList = companyList["companyList"];
 					var columnWidth = $("#logoContainer").width()/12;
 					var $container = $("#logoContainer").isotope({
