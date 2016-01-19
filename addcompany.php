@@ -69,7 +69,7 @@
 						  <div><input class="form-control" name="fullname_web" /></div>
 						<br />
 						<div class="text-center"> 
-							<div class="col-md-4 col-md-offset-4"><input class="btn btn-success btn-block" type="submit"/></div>
+							<div class="col-md-4 col-md-offset-4"><input class="btn btn-success btn-block" type="submit" /></div>
 						</div>
 					</form>
 				</div>

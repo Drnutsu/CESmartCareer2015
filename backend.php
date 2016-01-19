@@ -39,6 +39,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
+			<div class="alert alert-info" role="alert">
+		 		<a href="https://www.facebook.com/mrnonz" target="_blank" class="alert-link">แจ้งปัญหาการใช้งาน https://www.facebook.com/MrNonz</a>
+			</div>
 				<a href="./addcompany.php" target="_blank"><button type="button" class="btn btn-primary center-block">เพิ่มบริษัท</button></a>
 				<div class="table-responsive">
 					<table class="table table-hover">
@@ -61,7 +64,7 @@
      						echo "<td>".$row['email']."</td>";
      						echo "<td>
      							<div class='btn-group inline pull-left' data-toggle='buttons-checkbox'> 
-      								<a href='./addcompany.php' target='_blank' class='btn btn-warning center-block'>แก้ไข</a>
+      								<a href='./editcompany.php?id=".$row['ID']."' target='_blank' class='btn btn-warning center-block'>แก้ไข</a>
       								<a href='./delete.php?id=".$row['ID']."' class='btn btn-danger center-block'>ลบ</a>
     							</div> 
     							</td>";
