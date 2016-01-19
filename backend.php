@@ -43,6 +43,7 @@
 		 		<a href="https://www.facebook.com/mrnonz" target="_blank" class="alert-link">แจ้งปัญหาการใช้งาน https://www.facebook.com/MrNonz</a>
 			</div>
 				<a href="./addcompany.php" target="_blank"><button type="button" class="btn btn-primary center-block">เพิ่มบริษัท</button></a>
+				<a href="./logout.php" target="_blank"><button type="button" class="btn btn-danger center-block">ออกจากระบบ</button></a>
 				<div class="table-responsive">
 					<table class="table table-hover">
 					<tr>
