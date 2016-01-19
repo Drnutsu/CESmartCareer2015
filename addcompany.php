@@ -12,9 +12,9 @@
 	<title>CE Smart Career - Backend</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">	
+	<link rel="stylesheet" href="./admin.css">	
 </head>
 <body>
 	<div class="container">
@@ -25,47 +25,47 @@
 				</div>
 				<div class="panel-body">
 					<form class="form" method="post" action="add.php">
-						<label>student_ref</label>
+						<label>ผู้ติดต่อ</label>
 						  <div><input class="form-control" name="student_ref" /></div>
-						<label>status</label>
+						<label>สถานะ</label>
 						  <div><input class="form-control" name="status" /></div>
-						<label>name</label>
+						<label>ชื่อบริษัท </label>
 						  <div><input class="form-control" name="name" /></div>
-						<label>tel</label>
+						<label>เบอร์โทร</label>
 						  <div><input class="form-control" name="tel" /></div>
-						<label>tel_company</label>
+						<label>เบอร์บริษัท</label>
 						  <div><input class="form-control" name="tel_company" /></div>
-						<label>mobile</label>
+						<label>เบอร์มอืถือ</label>
 						  <div><input class="form-control" name="mobile" /></div>
-						<label>join_date</label>
+						<label>วันเวลาเข้าร่วม</label>
 						  <div><input class="form-control" name="join_date" /></div>
-						<label>donate</label>
+						<label>บริจาคจำนวน</label>
 						  <div><input class="form-control" name="donate" /></div>
-						<label>transaction_ref</label>
+						<label>หลักฐานการชำระ</label>
 						  <div><input class="form-control" name="transaction_ref" /></div>
-						<label>officer</label>
+						<label>ชื่อผู้ประสานงาน บริษัท</label>
 						  <div><input class="form-control" name="officer" /></div>
 						<label>email</label>
 						  <div><input class="form-control" name="email" /></div>
-						<label>contact_date</label>
+						<label>วันติดต่อ และ ส่งเอกสาร</label>
 						  <div><input class="form-control" name="contact_date" /></div>
-						<label>booth_date</label>
-						  <div><input class="form-control" name="booth_date" /></div>
-						<label>booth</label>
+						<label>วันที่าจัดบูท</label>
+						  <div><input class="form-control" name="company_details" /></div>
+						<label>บูท</label>
 						  <div><input class="form-control" name="booth" /></div>
-						<label>seminar</label>
+						<label>สัมมนา</label>
 						  <div><input class="form-control" name="seminar" /></div>
-						<label>logo</label>
+						<label>โลโก้</label>
 						  <div><input class="form-control" name="logo" /></div>
-						<label>address</label>
+						<label>ที่อยู่บริษัท</label>
 						  <div><input class="form-control" name="address" /></div>
-						<label>note</label>
+						<label>เพิ่มเติม</label>
 						  <div><input class="form-control" name="note" /></div>
-						<label>taxpayer</label>
+						<label>เลขที่เสียภาษี</label>
 						  <div><input class="form-control" name="taxpayer" /></div>
-						<label>fullname_document</label>
+						<label>ชื่อเต็มบริษัท(ใบเสร์จ เอกสาร)</label>
 						  <div><input class="form-control" name="fullname_document" /></div>
-						<label>fullname_web</label>
+						<label>ชื่อเต็มบริษัท(web-PR)</label>
 						  <div><input class="form-control" name="fullname_web" /></div>
 						<br />
 						<div class="text-center"> 
