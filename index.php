@@ -236,9 +236,9 @@
 						var companyName = companyList[i];
 						var html = '<div class="box" style="float:left;visibility:hidden;"><a href="companies.php#' + companyName + '">';
 						if(companyName==="ITInnovation")
-							html += '<img width="' + (columnWidth*2) + '" src="./2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
+							html += '<img width="' + (columnWidth*2) + '" src="./2016/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
 						else
-							html += '<img width="' + columnWidth + '" src="./2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
+							html += '<img width="' + columnWidth + '" src="./2016/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></a></div>';
 						var item =  $(html);
 						$container.append(item).isotope('appended', item);
 					}

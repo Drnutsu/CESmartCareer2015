@@ -79,7 +79,7 @@
 				for($i=0; $i<sizeof($companies); $i++) {
 						$companyName = $companies[$i];
 						$companyPath = './2016/'. $companyName;
-						$companyLogoURL = '"'.$companyPath.'/logo_full.jpg"';
+						$companyLogoURL = '"'.$companyPath.'/logo_full.png"';
 						$companyDescription = file_get_contents($companyPath.'/description.html');
 						$companyDescription =  $companyDescription==""?"<p><br/>ยังไม่มีข้อมูล</p>":$companyDescription;
 						$companyFileURL = $companyPath.'/'.$companyName.'.rar';
@@ -87,7 +87,7 @@
 						echo '<div class="container" style="margin-top:1%;">'.
 										'<div class="row">'.
 										'<div class="col-md-3 col-md-offset-0 col-xs-6 col-xs-offset-3">'.
-										'<a name = "'.$companyName.'"></a><div class="thumbnail"><img src="'. $companyPath. '/logo_full.jpg" align="middle"/></div></div>'.
+										'<a name = "'.$companyName.'"></a><div class="thumbnail"><img src="'. $companyPath. '/logo_full.png" align="middle"/></div></div>'.
 										'<div class="col-md-9 col-xs-12">'.
 										'<div class="description row" style="margin-top:-4%;">'.
 										$companyDescription;
@@ -132,9 +132,9 @@
 					var companyName = companyList[i];
 					var html = '<div class="box" style="float:left;visibility:hidden;"><a href="#' + companyName + '"><div class="thumbnail">';
 					if(companyName==="ITInnovation")
-						html += '<img width="' + columnWidth*3 + '" src="./2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></div></a></div>';
+						html += '<img width="' + columnWidth*3 + '" src="./2016/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></div></a></div>';
 					else
-						html += '<img width="' + columnWidth*1.5 + '" src="./2015/companies/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></div></a></div>';
+						html += '<img width="' + columnWidth*1.5 + '" src="./2016/'+ companyName + '/logo_small.gif" alt="' + companyName + '" /></div></a></div>';
 					var item =  $(html);
 					$container.append(item).isotope('appended', item);
 				}
