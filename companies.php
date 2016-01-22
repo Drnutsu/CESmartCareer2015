@@ -42,6 +42,18 @@
 			-moz-transition: 1s;
 			transition: 1s;
 		}
+	 .description {
+	 	height: 300px;
+	 	overflow: auto;
+	 	border-color: #63c6ae;
+	 	border-style: solid;
+	 	border-width: 2px;
+	 	padding-left: 10px;
+	 	padding-right: 10px;
+	 	margin-top: 20px;
+	 	margin-bottom: 20px;
+
+	 }
     </style>
   </head>
   <body>
@@ -84,7 +96,7 @@
 						$companyDescription =  $companyDescription==""?"<p><br/>ยังไม่มีข้อมูล</p>":$companyDescription;
 						$companyFileURL = $companyPath.'/'.$companyName.'.rar';
 						
-						echo '<div class="container" style="margin-top:1%;">'.
+						echo '<div class="container" style="margin-top:5%;">'.
 										'<div class="row">'.
 										'<div class="col-md-3 col-md-offset-0 col-xs-6 col-xs-offset-3">'.
 										'<a name = "'.$companyName.'"></a><div class="thumbnail"><img src="'. $companyPath. '/logo_full.png" align="middle"/></div></div>'.
