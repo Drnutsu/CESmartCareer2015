@@ -4,14 +4,14 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-		<meta name="description" content="CE Smart Career งาน Job Fair และสัมนาด้าน Computer และ IT ครั้งยิ่งใหญ่"/>
+		<meta name="description" content="CE Smart Career งาน Job Fair และสัมมนาด้าน Computer และ IT ครั้งยิ่งใหญ่"/>
 		<meta name="keywords" content="ce, it, job fair, career, smart career, ce smart career, งาน it, job"/>
 		<meta property="og:title" content="CE Smart Career, KMITL">
 		<meta property="og:type" content="website" />
 		<meta property="og:image" content="http://cesmartcamp/career/2015/img/prop/ss.jpg"/>
 		<meta property="og:url" content="http://cesmartcamp/career"/>
 		<meta property="og:site_name" content="CE Smart Career, KMITL"/>
-		<meta property="og:description" content="CE Smart Career งาน Job Fair และสัมนาด้าน Computer และ IT ครั้งยิ่งใหญ่"/>
+		<meta property="og:description" content="CE Smart Career งาน Job Fair และสัมมนาด้าน Computer และ IT ครั้งยิ่งใหญ่"/>
 		<meta name="author" content="Waitwing">
     <title>Home : CE Smart Career 2015</title>
     <!-- Bootstrap -->
@@ -87,7 +87,7 @@
 						ให้กับนักศึกษาทั้งที่กำลังจะสำเร็จการศึกษารวมถึงนักศึกษาที่กำลังศึกษาอยู่ในชั้นปีอื่นๆ เพื่อให้ได้ใช้เป็นข้อมูลเตรียมความพร้อมวางแผนการศึกษาได้อย่างมีประสิทธิภาพตรงตามแนวทางของตน
 						</p>
 						<p>
-						ภายในงานจะมีการเชิญบริษัทและองค์กรต่างๆจัดบู๊ตและการสัมนาเพื่อให้ความรู้เกี่ยวกับแนวโน้มของเทคโนโลยีในสาขาคอมพิวเตอร์
+						ภายในงานจะมีการเชิญบริษัทและองค์กรต่างๆจัดบูธและการสัมมนาเพื่อให้ความรู้เกี่ยวกับแนวโน้มของเทคโนโลยีในสาขาคอมพิวเตอร์
 						และเทคโนโลยีสารสนเทศ แสดงวิสัยทัศน์ของบริษัท และ แนะแนวทางสายอาชีพ โดยนักศึกษาสามารถสอบถามขอรับข้อมูลของบริษัทและองค์กรที่ร่วมกิจกรรม
 						รวมทั้งขอรับใบสมัครหรือสมัครงานกับบริษัทได้โดยตรง
 						</p>
@@ -103,7 +103,7 @@
 							<li>เวลา 9.00 – 16.30 น.</li>
 							<li> ณ อาคารปฏิบัติการวิศวกรรมศาสตร์2 (ECC) 5th Floor</li>
 						</ul>
-						* ตารางสัมนาและแผนผังบู๊ตบริษัท 
+						* สามารถดูตารางสัมมนาและแผนผังบูธบริษัทได้ <a href="companies.php">ที่นี่</a>
 						<h3 style="color:white;margin-top:-10px;">เอกสารที่ควรเตรียมมาด้วย</h3>
 						<ul>
 							<li>Resume</li>
@@ -209,7 +209,7 @@
 						<br />CE Smart Career 2015</h2>
 					</div>
 					<div class="col-md-offset-5 col-md-3">
-						<h3>Creator: Waitwing & Chanon</h3>
+						<h3>Creator: Waitwing & Chanon & Nutsu</h3>
 						<h3>Inspired from: Infusion (Wordpress)</h3>
 						<hr style="border-top: 1px solid #454e51;"/>
 						<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FCESmartCareer+&amp;width=250&amp;height=80&amp;colorscheme=dark&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=211798985656755" scrolling="no" frameborder="0" style="border:none; width:250px; height:80px;" allowTransparency="true"></iframe>
