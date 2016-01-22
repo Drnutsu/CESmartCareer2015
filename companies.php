@@ -76,6 +76,16 @@
     </header>
 		<div class="text-inter" style="padding-bottom:2%;">
 			<div class="container">
+				<div class="row">
+	    			<div class="col-sm-10 col-sm-offset-1 text-center">
+	    				<img class="img-responsive" src="./2016/cover.jpg" />
+	    			</div>
+	    		</div>
+	    		<div class="row">
+	    			<div class="col-sm-10 col-sm-offset-1 text-center">
+	    				<img class="img-responsive" src="./2016/seminar_plan.jpg" />
+	    			</div>
+	    		</div>
 	    		<div class="row">
 	    			<div class="col-sm-10 col-sm-offset-1 text-center">
 	    				<img class="img-responsive" src="./2016/agenda-2.jpg" />
@@ -141,6 +151,7 @@
 		<script src="./2015/js/isotope.pkgd.min.js"></script> 
 		<script src="./2015/js/imagesloaded.pkgd.min.js"></script>
 		<script>
+
 			$.getJSON("./2016/lists.json").done(function(companyList){
 				var companyList = companyList["companyList"];
 				var columnWidth = $("#logoContainer").width()/18;
@@ -184,7 +195,9 @@
 			});
 
 			$('#backToTop').on('click', function(){
-					$(window).scrollTop(0);
+					$('html,body').animate({
+						scrollTop: 0
+					}, 1000);
 					$(this).fadeOut();
 			});
 		</script>

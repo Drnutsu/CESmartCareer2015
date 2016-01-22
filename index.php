@@ -59,7 +59,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3">
-								<div class="hero-title">CE Smart Career<br/>The biggest IT job fair and semina</div>
+								<div class="hero-title">CE Smart Career<br/>The biggest IT job fair and seminar</div>
 								<p class="hero-content">วันจันทร์และอังคารที่ 26-27 มกราคม 2559<br/>เวลา 9:00 - 16:30 น.</p>
 							</div>
 						</div>
@@ -103,7 +103,7 @@
 							<li>เวลา 9.00 – 16.30 น.</li>
 							<li> ณ อาคารปฏิบัติการวิศวกรรมศาสตร์2 (ECC) 5th Floor</li>
 						</ul>
-						* ตารางสัมนาและแผนผังบู๊ตบริษัทจะมีการแจ้งให้ทราบในภายหลัง
+						* ตารางสัมนาและแผนผังบู๊ตบริษัท 
 						<h3 style="color:white;margin-top:-10px;">เอกสารที่ควรเตรียมมาด้วย</h3>
 						<ul>
 							<li>Resume</li>
