@@ -76,10 +76,21 @@
     </header>
 		<div class="text-inter" style="padding-bottom:2%;">
 			<div class="container">
+	    		<div class="row">
+	    			<div class="col-sm-10 col-sm-offset-1 text-center">
+	    				<img class="img-responsive" src="./2016/agenda-2.jpg" />
+	    			</div>
+	    		</div>
+    		</div>
+			<div class="container text-center">
+				<br />
+					<h1><b>บริษัทที่เข้าร่วมงาน<b></h1>
+				<br />
 				<div id="logoContainer" class="col-md-offset-0 col-md-12 col-sm-offset-0 col-md-12">
 				</div>
-			</div>	
+			</div>
 		</div>
+
 		<div class="container"	>
 			<div class="arrow"></div>		
 		</div>
