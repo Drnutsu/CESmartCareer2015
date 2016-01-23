@@ -60,7 +60,7 @@
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3">
 								<div class="hero-title">CE Smart Career<br/>The biggest IT job fair and seminar</div>
-								<p class="hero-content">วันจันทร์และอังคารที่ 26-27 มกราคม 2559<br/>เวลา 9:00 - 16:30 น.</p>
+								<p class="hero-content">วันอังคารและพุธที่ 26-27 มกราคม 2559<br/>เวลา 9:00 - 16:30 น.</p>
 							</div>
 						</div>
 					</div>
@@ -99,7 +99,7 @@
 					<div class="col-md-6" style="background-color:#242a2c;color:white;min-height:490px;">
 						<h3 style="color:white;">วันดำเนินโครงการ</h3>
 						<ul>
-							<li>วันจันทร์และอังคารที่ 26-27 มกราคม 2559</li>
+							<li>วันอังคารและพุธที่ 26-27 มกราคม 2559</li>
 							<li>เวลา 9.00 – 16.30 น.</li>
 							<li> ณ อาคารปฏิบัติการวิศวกรรมศาสตร์2 (ECC) 5th Floor</li>
 						</ul>

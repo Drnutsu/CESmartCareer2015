@@ -83,6 +83,7 @@
 	    		</div>
 	    		<div class="row">
 	    			<div class="col-sm-10 col-sm-offset-1 text-center">
+	    				<h2> ตารางห้องสัมมนา </h2>
 	    				<img class="img-responsive" src="./2016/seminar_plan.jpg" />
 	    			</div>
 	    		</div>
@@ -96,7 +97,7 @@
 				<br />
 					<h1><b>บริษัทที่เข้าร่วมงาน<b></h1>
 				<br />
-				<div id="logoContainer" class="col-md-offset-0 col-md-12 col-sm-offset-0 col-md-12">
+				<div id="logoContainer" class="col-md-offset-0 col-md-12 col-sm-offset-0 col-xs-12">
 				</div>
 			</div>
 		</div>
@@ -137,7 +138,7 @@
 						<h2>KMITL<br/>Computer Engineering<br/>CE Smart Career 2015</h2>
 					</div>
 					<div class="col-md-offset-5 col-md-3">
-						<h3>Creator: Waitwing & Chanon</h3>
+						<h3>Creator: Waitwing & Chanon & Nutsu </h3>
 						<h3>Inspired from: Infusion (Wordpress)</h3>
 						<hr style="border-top: 1px solid #454e51;"/>
 						<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FCESmartCareer+&amp;width=250&amp;height=80&amp;colorscheme=dark&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=211798985656755" scrolling="no" frameborder="0" style="border:none; width:250px; height:80px;" allowTransparency="true"></iframe>
@@ -159,7 +160,8 @@
 				var $container = $("#logoContainer").isotope({
 					 itemSelector: '.box',
 					 masonry: {
-						columnWidth: columnWidth
+						columnWidth: columnWidth,
+						percentPosition: true
 					}
 				});
 				for(var i=0;i<companyList.length;i++){

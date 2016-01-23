@@ -95,7 +95,7 @@
 						<br />CE Smart Career 2015</h2>
 					</div>
 					<div class="col-md-offset-5 col-md-3">
-						<h3>Creator: Waitwing & Chanon</h3>
+						<h3>Creator: Waitwing & Chanon & Nutsu</h3>
 						<h3>Inspired from: Infusion (Wordpress)</h3>
 						<hr style="border-top: 1px solid #454e51;"/>
 						<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FCESmartCareer+&amp;width=250&amp;height=80&amp;colorscheme=dark&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=211798985656755" scrolling="no" frameborder="0" style="border:none; width:250px; height:80px;" allowTransparency="true"></iframe>
